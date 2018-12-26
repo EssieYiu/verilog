@@ -1,0 +1,1627 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 19 16:06:15 2018
+# Process ID: 9572
+# Current directory: C:/Users/galaxy/.Xilinx/CPU_Single_Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5228 C:\Users\galaxy\.Xilinx\CPU_Single_Cycle\CPU_Single_Cycle.xpr
+# Log file: C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/vivado.log
+# Journal file: C:/Users/galaxy/.Xilinx/CPU_Single_Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 821.965 ; gain = 98.418
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v] -no_script -reset -force -quiet
+remove_files  C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v
+file delete -force C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v
+close [ open C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v w ]
+add_files C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v] -no_script -reset -force -quiet
+remove_files  C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v
+file delete -force C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register_File.v
+close [ open C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v w ]
+add_files C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 890.020 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:30 . Memory (MB): peak = 890.020 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 902.426 ; gain = 0.000
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 43
+remove_bps -file {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 43
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 912.055 ; gain = 0.828
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 912.473 ; gain = 0.000
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v} 30
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 917.645 ; gain = 0.000
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v} 49
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 921.375 ; gain = 0.434
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 925.590 ; gain = 0.000
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 33
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 34
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 35
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 37
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 39
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 40
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 41
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 42
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 30
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" Line 30
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 67
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 40
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 41
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" Line 33
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" Line 34
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" Line 35
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" Line 33
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" Line 31
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 33
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 34
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 31
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 46
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" Line 30
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 48
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 43
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" Line 39
+step
+Stopped at time : 5 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" Line 38
+step
+Stopped at time : 10 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 10 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 10 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" Line 31
+step
+Stopped at time : 10 ns : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" Line 32
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 941.203 ; gain = 0.734
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+remove_bps -file {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v} -line 49
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v} 48
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v} 46
+remove_bps -file {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v} -line 48
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+remove_bps -file {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v} -line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 46
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+run 10 ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 944.457 ; gain = 0.387
+remove_bps -file {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v} -line 30
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:27 . Memory (MB): peak = 946.445 ; gain = 1.988
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 946.445 ; gain = 0.000
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v} 30
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+run all
+run: Time (s): cpu = 00:08:17 ; elapsed = 00:08:33 . Memory (MB): peak = 953.320 ; gain = 6.875
+save_wave_config {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 956.297 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 956.297 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 956.297 ; gain = 0.000
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+run all
+run: Time (s): cpu = 00:00:58 ; elapsed = 00:00:50 . Memory (MB): peak = 956.297 ; gain = 0.000
+add_bp {C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 43
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+run all
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run all
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+run all
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 30
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 31
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 32
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" Line 36
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 57
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 58
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 59
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 65
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 66
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" Line 38
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" Line 43
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 52
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 54
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" Line 53
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 44
+step
+Stopped at time : 0 fs : File "C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" Line 45
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 19 17:10:20 2018...

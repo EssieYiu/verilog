@@ -1,0 +1,20 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v,1542789635,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v,,CPU_Single_Cycle,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v,1542873129,verilog,,,,cpu_sim,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v,1542617206,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v,,ALU,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v,1543395295,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v,,Control_Unit,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v,1543395135,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v,,Data_Memory,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v,1543245119,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v,,Instruction_Memory,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v,1542530313,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v,,Mux_1,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v,1543155655,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v,,Mux_2,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v,1543155674,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v,,Mux_3,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v,1542530455,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v,,Mux_4,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v,1543159053,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v,,PC,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v,1543155516,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v,,PC_Adder,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v,1543155584,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v,,PC_Adder2,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v,1543395128,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v,,Register,,,,,,,,
+E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v,1542617164,verilog,,E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v,,Sign_Zero_Extend,,,,,,,,

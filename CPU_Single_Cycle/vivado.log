@@ -1,0 +1,330 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 26 21:24:03 2018
+# Process ID: 30456
+# Current directory: E:/codes/Vivado/CPU_Single_Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28752 E:\codes\Vivado\CPU_Single_Cycle\CPU_Single_Cycle.xpr
+# Log file: E:/codes/Vivado/CPU_Single_Cycle/vivado.log
+# Journal file: E:/codes/Vivado/CPU_Single_Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/galaxy/.Xilinx/CPU_Single_Cycle' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 804.074 ; gain = 111.438
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim/xsim.dir/cpu_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 55.578 ; gain = 1.418
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 26 21:26:05 2018...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 842.309 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {E:/codes/Vivado/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config E:/codes/Vivado/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/Instruction.txt referenced on E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 859.824 ; gain = 17.516
+add_bp {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 37
+remove_bps -file {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 37
+add_bp {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 39
+remove_bps -file {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 39
+add_bp {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 39
+remove_bps -file {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 39
+run all
+run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 887.586 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:04:36 ; elapsed = 00:04:54 . Memory (MB): peak = 887.586 ; gain = 0.000
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 887.586 ; gain = 0.000
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: File C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/Instruction.txt referenced on E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 887.586 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_sim_behav -key {Behavioral:sim_1:Functional:cpu_sim} -tclbatch {cpu_sim.tcl} -view {E:/codes/Vivado/CPU_Single_Cycle/cpu_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config E:/codes/Vivado/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/Instruction.txt referenced on E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: File C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/Instruction.txt referenced on E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+WARNING: File C:/Users/galaxy/.Xilinx/CPU_Single_Cycle/Instruction.txt referenced on E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v at line 36 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_Single_Cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Mux_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/PC_Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sources_1/new/Sign_Zero_Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_Zero_Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d24f43ab123949e58779d6a09c08f01a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_sim_behav xil_defaultlib.cpu_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.PC_Adder
+Compiling module xil_defaultlib.PC_Adder2
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Sign_Zero_Extend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Mux_1
+Compiling module xil_defaultlib.Mux_2
+Compiling module xil_defaultlib.Mux_3
+Compiling module xil_defaultlib.Mux_4
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.CPU_Single_Cycle
+Compiling module xil_defaultlib.cpu_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 902.984 ; gain = 7.313
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 26 23:18:14 2018...

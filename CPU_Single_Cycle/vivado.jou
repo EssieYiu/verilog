@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 26 21:24:03 2018
+# Process ID: 30456
+# Current directory: E:/codes/Vivado/CPU_Single_Cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28752 E:\codes\Vivado\CPU_Single_Cycle\CPU_Single_Cycle.xpr
+# Log file: E:/codes/Vivado/CPU_Single_Cycle/vivado.log
+# Journal file: E:/codes/Vivado/CPU_Single_Cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/codes/Vivado/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+add_bp {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 37
+remove_bps -file {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 37
+add_bp {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 39
+remove_bps -file {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 39
+add_bp {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} 39
+remove_bps -file {E:/codes/Vivado/CPU_Single_Cycle/CPU_Single_Cycle.srcs/sim_1/new/CPU_Single_Cycle.v} -line 39
+run all
+run all
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config E:/codes/Vivado/CPU_Single_Cycle/cpu_sim_behav.wcfg
+source cpu_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
