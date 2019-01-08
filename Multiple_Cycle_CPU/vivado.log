@@ -1,0 +1,903 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 19 16:28:21 2018
+# Process ID: 2708
+# Current directory: C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18284 C:\Users\galaxy\.Xilinx\Multiple_Cycle_CPU\Multiple_Cycle_CPU.xpr
+# Log file: C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/vivado.log
+# Journal file: C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 829.633 ; gain = 107.063
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 868.551 ; gain = 0.570
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 893.422 ; gain = 23.734
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 893.422 ; gain = 25.441
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 918.023 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 926.320 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 934.047 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1233] port ReadData1 is already connected [C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 937.969 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1233] port ReadData1 is already connected [C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 940.176 ; gain = 2.098
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MCCPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MCCPU_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_A_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_A_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALU_B_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_B_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/ALUout_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUout_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Adder2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Control_Unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/DataBack_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataBack_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Instruction_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/J_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module J_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple_Cycle_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Mux6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux6
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Sign_zero_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sign_zero_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sim_1/new/MCCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MCCPU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b4ea33ebb1c34257aaef6ea175b4b889 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MCCPU_behav xil_defaultlib.MCCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1233] port ReadData1 is already connected [C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.srcs/sources_1/new/Multiple_Cycle_CPU.v:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Adder1
+Compiling module xil_defaultlib.Adder2
+Compiling module xil_defaultlib.Mux5
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.Instruction_Register
+Compiling module xil_defaultlib.Mux1
+Compiling module xil_defaultlib.Sign_zero_extend
+Compiling module xil_defaultlib.J_extend
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.Register_File
+Compiling module xil_defaultlib.ALU_A_Register
+Compiling module xil_defaultlib.ALU_B_Register
+Compiling module xil_defaultlib.Mux3
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALUout_Register
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.DataBack_Register
+Compiling module xil_defaultlib.Mux6
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.Multiple_Cycle_CPU
+Compiling module xil_defaultlib.MCCPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MCCPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/Multiple_Cycle_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MCCPU_behav -key {Behavioral:sim_1:Functional:MCCPU} -tclbatch {MCCPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MCCPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MCCPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 948.953 ; gain = 0.602
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 us
+save_wave_config {C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/MCCPU_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/MCCPU_behav.wcfg
+set_property xsim.view C:/Users/galaxy/.Xilinx/Multiple_Cycle_CPU/MCCPU_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 19 17:44:06 2018...

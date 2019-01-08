@@ -33,7 +33,7 @@ module registerfile(
         for(i = 0; i < 32; i = i+ 1)
             register[i] = 0;
     end
-    always @ (posedge clk) begin
+    always @ (posedge clk or RegWre) begin
         if(RegWre == 1) begin//Ð´¼Ä´æÆ÷
             register[WriteReg] = WriteData;
         end

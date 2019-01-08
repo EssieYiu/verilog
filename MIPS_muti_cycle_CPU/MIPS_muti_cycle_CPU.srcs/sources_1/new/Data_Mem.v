@@ -27,7 +27,12 @@ module Data_Mem(
     input WR,//0Ð´´æ´¢Æ÷ 1ÎÞ²Ù×÷
     output reg [31:0] DataOut
     );
-    reg [7:0] DataMem [0:31];
+    reg [7:0] DataMem [0:127];
+    integer i;
+    initial begin
+    for(i = 0; i < 128; i = i+1)
+        DataMem[i] = 0;
+    end
     always @(DataIn or Daddr or WR or RD) begin
         if(WR == 0) begin
             DataMem[Daddr*4] = DataIn[31:24];
@@ -42,6 +47,6 @@ module Data_Mem(
             DataOut[7:0] = DataMem[Daddr*4+3];
         end
         else 
-            DataOut = 8'hzzzzzzzz;
+            DataOut = 32'bzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz;
     end
 endmodule

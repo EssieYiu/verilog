@@ -172,10 +172,10 @@ module control(
         insLw:PCSrc = 2'b00;
         endcase
         //RD
-        if(state == 3'b011 && opcode == insLw) RD = 0;
+        if(stateOut == 3'b011 && opcode == insLw) RD = 0;
         else RD = 1;
         //WR
-        if(state == 3'b011 && opcode == insSw) WR = 0;
+        if(stateOut == 3'b011 && opcode == insSw) WR = 0;
         else WR = 1;
         //ALUOp
         case(opcode)
